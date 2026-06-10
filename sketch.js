@@ -156,9 +156,11 @@ function drawGameScreen() {
     text("Nice shot!", width/2, 130)
     // Level up message
 if (levelMessageTimer > 0) {
-  fill(255, 0, 0);
-  textSize(70);
-  text("NEXT LEVEL!", width / 2, height / 2);
+  if (frameCount % 20 < 10) { // blink on/off every 10 frames
+    fill(255, 0, 0);
+    textSize(70);
+    text("NEXT LEVEL!", width / 2, height / 2);
+  }
   levelMessageTimer--;
 }
 }
