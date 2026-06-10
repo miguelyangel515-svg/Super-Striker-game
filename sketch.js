@@ -24,6 +24,7 @@ let level = 1; // game starts at level 1
 let shot = []; // stores the result of each shot as a goal or a miss
 let previousLevel = 1; // creates the levels which are gonna get incremented
 let levelMessageTimer = 0;
+let resettimer=0;
 function preload() {
   bg = loadImage('grass1.png')
   bghome = loadImage('homebg.png');
@@ -291,7 +292,7 @@ function moveBall(){
  function resetgameball(){
    if (screen == "game"){
      if (
-       gameballpsn.Y<=220 ){
+       gameballpsn.Y<=275 ){
       
        // the following goalie check collision detection idea came from Ai but was written by myself similar to how I wrote the check mousePressed functions
        let hitGoalie = gameballpsn.X > goaliepsn.X && gameballpsn.X < goaliepsn.X + goaliepsn.W && gameballpsn.Y > goaliepsn.Y && gameballpsn.Y < goaliepsn.Y + goaliepsn.H;
