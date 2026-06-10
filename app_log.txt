@@ -25,4 +25,4 @@
 * Few improvements were suggested, so focus mainly on visual upgrades and smoother level progression.
 
 Overall Improvements: 
-I made the levels increase in difficulty as you level up as well as adding a text that says level up in red in the middle of the screen when the next level is reached. I tailored teh game to satisfy the feedback from the testers making it ready for the game show.
+I made the levels increase in difficulty as you level up as well as adding a text that says level up in red in the middle of the screen when the next level is reached. I tailored teh game to satisfy the feedback from the testers making it ready for the game show. 6/9/26-6/10/26
