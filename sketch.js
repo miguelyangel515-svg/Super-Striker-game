@@ -209,7 +209,8 @@ function drawloseScreen(){
   textSize(20)
   text("Back", buttonBack.X+buttonBack.W/2, buttonBack.Y+buttonBack.H/2)
 }
-// loops through the shot list to find and display score and level
+// loops through the shot list to find and display s
+//core and level
 function updateScore(shotlist){
  let score = 0;
   for (let i = 0; i < shotlist.length; i++){
